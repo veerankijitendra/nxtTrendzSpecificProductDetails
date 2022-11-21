@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.similar-product-card {
+  width: 280px;
+  margin-bottom: 22px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.similar-image {
+  width: 100%;
+  height: 60%;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.similar-title {
+  color: #171f46;
+  font-size: 18px;
+  flex-grow: 1;
+}
+.similar-brand {
+  color: #616e7c;
+  font-size: 19px;
+  flex-grow: 1;
+}
+.similar-price-star-rating-con {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.similar-price-product {
+  color: #171f46;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+}
+.similar-star-rating {
+  background-color: #3b82f6;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.3rem;
+  height: 2rem;
+  border-radius: 6px;
+}
+.similar-rating {
+  font-weight: bold;
+  font-size: 18px;
+}
+.similar-star-image {
+  width: 22px;
+  margin-left: 3px;
+}
